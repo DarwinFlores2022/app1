@@ -10,13 +10,10 @@
 body {
   width: 90%;
   margin: 0 auto;
-  background: rgb(0, 27, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(31, 153, 194, 0.995) 0%,
-    rgba(121, 9, 113, 1) 73%,
-    rgba(192, 0, 255, 1) 98%
-  );
+  background-image: url("https://img.freepik.com/vector-premium/fondo-paisaje-naturaleza_163454-761.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
   box-shadow: -7px 9px 34px -4px rgba(0, 0, 0, 0.83);
   -webkit-box-shadow: -7px 9px 34px -4px rgba(0, 0, 0, 0.83);
@@ -126,6 +123,7 @@ footer {
 .contenido article div p {
   padding: 10px;
   text-align: justify;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contenido article img {
@@ -156,5 +154,16 @@ hr {
   main {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .contenido article {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .contenido article img {
+    margin: 0 auto;
+    width: 125px;
   }
 }
